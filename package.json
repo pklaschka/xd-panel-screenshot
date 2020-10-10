@@ -1,25 +1,33 @@
 {
-  "name": "@pklaschka/xd-panel-screenshot",
-  "version": "0.0.0",
-  "description": "A tool to automate taking screenshots of panel plugins for Adobe XD",
-  "bin": "index.js",
-  "scripts": {
-    "start": "node ."
-  },
-  "keywords": [
-    "adobe-xd",
-    "tool",
-    "cli",
-    "screenshot",
-    "automation"
-  ],
-  "author": "Pablo Klaschka",
-  "license": "MIT",
-  "dependencies": {
-    "@fliegwerk/logsemts": "^0.4.0",
-    "active-win": "^6.2.0",
-    "chalk": "^4.1.0",
-    "jimp": "^0.16.1",
-    "screenshot-desktop": "^1.12.2"
-  }
+	"name": "@pklaschka/xd-panel-screenshot",
+	"version": "0.0.0",
+	"description": "A tool to automate taking screenshots of panel plugins for Adobe XD",
+	"license": "MIT",
+	"author": "Pablo Klaschka",
+	"bin": "index.js",
+	"scripts": {
+		"prettier:check": "prettier --check .",
+		"prettier:fix": "prettier --write .",
+		"start": "node ."
+	},
+	"keywords": [
+		"adobe-xd",
+		"tool",
+		"cli",
+		"screenshot",
+		"automation"
+	],
+	"dependencies": {
+		"@fliegwerk/logsemts": "^0.4.0",
+		"active-win": "^6.2.0",
+		"chalk": "^4.1.0",
+		"jimp": "^0.16.1",
+		"screenshot-desktop": "^1.12.2"
+	},
+	"devDependencies": {
+		"eslint": "^7.10.0",
+		"eslint-plugin-prettier": "^3.1.4",
+		"prettier": "^2.1.2",
+		"prettier-plugin-package": "^1.2.0"
+	}
 }
