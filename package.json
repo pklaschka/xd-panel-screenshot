@@ -1,6 +1,6 @@
 {
 	"name": "@pklaschka/xd-panel-screenshot",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "A tool to automate taking screenshots of panel plugins for Adobe XD",
 	"license": "MIT",
 	"author": "Pablo Klaschka",
