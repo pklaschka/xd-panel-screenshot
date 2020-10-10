@@ -1,9 +1,10 @@
 /* Copyright 2020 by Pablo Klaschka <xdplugins@pabloklaschka.de> */
 
 const ch = require('chalk');
-const { Logger, ChalkLogger } = require('@fliegwerk/logsemts');
 const screenshot = require('screenshot-desktop');
 const Jimp = require('jimp');
+const activeWin = require('active-win');
+const { Logger, ChalkLogger } = require('@fliegwerk/logsemts');
 
 const panelColor = 0xf5f5f5ff;
 const borderColor = 0xddddddff;
@@ -17,7 +18,7 @@ applicationLogger.info('Generating screenshot.');
 applicationLogger.info('Please focus the Adobe XD window');
 
 const interval = setInterval(() => {
-	const win = require('active-win').sync();
+	const win = activeWin.sync();
 	if (win.title.endsWith('Adobe XD')) {
 		clearInterval(interval);
 		myLogger
