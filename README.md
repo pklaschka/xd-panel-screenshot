@@ -1,4 +1,4 @@
-# @pklaschka/xd-panel-screenshot [![NPM version](https://badge.fury.io/js/@pklaschka/xd-panel-screenshot.svg)](https://npmjs.org/package/@pklaschka/xd-panel-screenshot)
+# @pklaschka/xd-panel-screenshot [![NPM version](https://badge.fury.io/js/%40pklaschka%2Fxd-panel-screenshot.svg)](https://npmjs.org/package/@pklaschka/xd-panel-screenshot)
 
 > A tool to automate taking screenshots of panel plugins for Adobe XD
 
