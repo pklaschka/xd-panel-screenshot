@@ -3,6 +3,7 @@
 	"version": "0.0.4",
 	"description": "A tool to automate taking screenshots of panel plugins for Adobe XD",
 	"license": "MIT",
+	"repository": "pklaschka/xd-panel-screenshot",
 	"author": "Pablo Klaschka",
 	"bin": "index.js",
 	"scripts": {
